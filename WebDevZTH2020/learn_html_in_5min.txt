@@ -36,10 +36,49 @@ anchor <a href="">
 Make a table here.
 
 
+### Advanced HTML 5
+
+<form>
+    method, action
+
+<input>:
+    type= "text", "submit", "reset", "email", "date", "radio", "password"
+    required, value, name, min
+
+dropdown <select>
+    option <option>
+
+comment <!-- -->
+
+<div> and <span>
+
+Semantic Elements:
+    <header>
+    <nav>
+    <main>
+    <footer>
+
+
 Resources:
 ```
 # Practice: HTML
 https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/
 https://www.w3schools.com/html/html_exercises.asp
 
+# References:
+https://www.w3schools.com/html/default.asp
+
 ```
+
+### Final note
+
+Practice makes perfect. If you want to practice your HTML skills even more, here is a great free resource for you to use.
+https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/s
+
+You can complete all of the interactive exercises in the link above, however, I do want to caution you: the best way to become a successful web developer isn't about just focusing on HTML for a long time until you have it perfect before you move onto the next topic (CSS). The best thing you can do, is to use the current knowledge that you have to move onto the next section, as you will be constantly improving and learning new things about HTML as you code along in this course.
+
+Spending all of your time learning and memorizing all of the html tags and attributes is not the most efficient use of your time. Most job interviews of a web developer will never test this knowledge. What you want to do instead is this: Understand how you can use HTML, and how to use online resources to find html tags and attributes that you need. A great developer is someone who knows how to find solution to problems and knows where to look. No developer can memorize everything, especially when we start learning CSS and Javascript.
+
+As we progress through the course we will constantly be using the knowledge in this section to build bigger and better web applications.
+
+If you take one thing from this, it is this: Don't worry if you don't feel 100% confident in HTML. Keep going as we will keep building on top of this knowledge.
