@@ -1,0 +1,45 @@
+# 		Docker Commands
+# ---------------------------
+#From learndocker.online 
+
+alias odoc="open /Applications/Docker.app"
+
+alias dcr="docker container run" 						# Run a container and add it to your containers
+alias dcls="docker container ls" 						# List containers 
+alias dcrit="docker container run -it"			# NOTE==> if you write "-it" then how can dettach from container 
+																						# with CTL+P and CTL+Q One after the other.
+																						# AND you get a shell, because if you just run -i then you CAN run CMD
+																						# But there is no shell that you can SEE. and just running -t will give you the shell
+																						# Meaning you can see it but when executing cmds you dont see anything. 
+																						# BLUF: just use -it to get a shell 
+
+
+alias dcat="docker container attach" 					# Attach to a container 
+alias dcss="docker container start" 					# Start container
+alias dcsst="docker container stop"						# Stop a container, then after 10sec it will shutdown.
+
+alias dclsa="docker container ls -a"
+alias dcrm="docker container rm"														 # Remove a container
+alias dcdel="docker container rm $(docker container ls -aq)" # Delete all containers in one go
+alias dcrmf="docker container rm -f"
+alias dirmf="docker image rm -f"
+
+alias dils="docker image ls" 														# List images
+alias dirm="docker image rm"														# Remove a image
+alias dcrrm="docker container run --rm"									# Run container and after done remove it
+alias dcrname="docker container run --name"							# Run container and give it a name
+alias dcrport="docker container run -p"									# Create portmapping | Local-port : container-port
+alias dcrrmname="docker container run -it --rm --name"	# Multi commands run, rm after, name container 
+alias dcrit="docker container run -it"									# Ex > docker container run -it myalpine:latest
+alias dps="docker ps"
+alias dpsa="docker ps -a" 									# Show all containers, running and those exited
+
+alias dnls="docker network ls"							# To list networks
+alias dnc="docker network create"						# To create networks with a name
+alias dipull="docker image pull"						# Pull(download) images {image_name}:tag ex> dipull hello-world:latest
+alias dibuild="docker image build"					# Build own image Ex> docker image build -t myalpine:latest .
+
+alias ditag="docker image tag"							# Ex > docker image tag myalpine:latest jfahrer/myalpine:latest
+alias dipush="docker image push" 						# Ex > docker image push jfahrer/myalpine:latest
+alias dckill="docker container kill" 				# Ex > docker container kill <CONTAINER NAME>
+
