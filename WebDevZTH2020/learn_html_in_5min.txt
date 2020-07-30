@@ -1,0 +1,45 @@
+# Learn HTML in 5 min.
+
+Install a text editor (Select one):
+  https://www.sublimetext.com/
+  https://atom.io/
+  https://code.visualstudio.com/
+
+### This is the rule that every html file must follow (4.1)
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+</html>
+```
+
+### Play around with these tags and understand them.
+
+<html>
+<head>
+<title>
+<body>
+headings (h1, h2, h3, h4, h5, h6)
+paragraph <p>
+bold <strong>, italic <em>
+ordered list <ol>, unordered list <ul>, list item<li>
+break <br>, horizontal rule <hr>
+image <img> and attributes: src, width, height
+anchor <a href="">
+
+### Understand Relative vs Absolute Path
+Make a table here.
+
+
+Resources:
+```
+# Practice: HTML
+https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/
+https://www.w3schools.com/html/html_exercises.asp
+
+```
